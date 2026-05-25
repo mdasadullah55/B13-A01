@@ -90,7 +90,7 @@ h1{
     padding-top: 100px;
     font-weight: 700;
     font-weight: bold;
-    /* line-height: 84px; */
+    line-height: 60px;
     font-size: 65px;
 }
 .structure{
@@ -99,7 +99,7 @@ h1{
 .note-taking{
     color: #30B868;
 }
-p{
+.a-private{
     color: wheat;
 }
 .start-building, .see-how{
@@ -111,3 +111,14 @@ p{
     color: white;
     font-size: medium;
     background-color: chocolate;
+}
+.new{
+    margin-top: 800px;
+    align-items: center;
+    text-align: center;
+}
+.you-re{
+    margin-bottom: 100px;
+    line-height: 0px;
+    color: #627382;
+}
