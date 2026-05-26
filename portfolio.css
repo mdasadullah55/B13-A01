@@ -25,7 +25,7 @@ nav ul a{
     text-decoration: none;
     color: black;
 }
-nav button{
+nav button, .last button{
     width: 162px;
     height: 44px;
     border-radius: 7px;
@@ -84,10 +84,10 @@ nav button{
     /* margin: ; */
     align-items: center;
 }
-h1{
-    text-align: center;
-    align-items: center;
-    padding-top: 100px;
+.new h1, .hero .banner h1{
+    /* text-align: center; */
+    /* align-items: center; */
+    padding-top: 70px;
     font-weight: 700;
     font-weight: bold;
     line-height: 60px;
@@ -122,15 +122,6 @@ h1{
     line-height: 0px;
     color: #627382;
 }
-
-
-
-
-
-
-
-
-
 .card-banner{
     display: flex;
     width: 1300px;
@@ -141,6 +132,7 @@ h1{
     justify-content: space-between;
     margin: 0 auto;
     gap: 24px;
+    padding-bottom: 50px;
 }
 .imagi{
     background-color: #f95555;
@@ -153,6 +145,54 @@ h1{
     height: 150px;
     /* gap: 100px; */
 }
-.card p{
+.card p,.solution p, .last p{
     color: #627382;
 }
+.brainsection{
+    display: flex;
+    /* padding-left: 0; */
+    /* margin-left:0 ; */
+    /* flex-direction: column; */
+    gap: 40px;
+}
+.solution{
+    /* margin-left: 0;
+    padding-left: 0; */
+    margin-top: 100px;
+}
+/* .soln{
+    padding: 0;
+    margin: 0;
+} */
+.solution ul{
+    /* margin-left: 0; */
+    padding-left: 16px;
+}
+ .solution h1{
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 65px;
+    /* padding:0; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ /* .solution p h1 p{
+    line-height:0 ;
+ } */
+  .last{
+    width: 1280px;
+    text-align: center;
+    align-items:center ;
+    margin: 0 auto;
+    margin-left: 230px;
+    margin-bottom: 100px;
+  }
+  .last p{
+    /* margin: 0 auto; */
+    margin-right: 100px;
+  }
+  .last h1 {
+    margin-right: 120px;
+  }
+  ]
