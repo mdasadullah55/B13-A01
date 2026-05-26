@@ -122,3 +122,37 @@ h1{
     line-height: 0px;
     color: #627382;
 }
+
+
+
+
+
+
+
+
+
+.card-banner{
+    display: flex;
+    width: 1300px;
+    /* background-color: cadetblue; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 24px;
+}
+.imagi{
+    background-color: #f95555;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.card{
+    width: 322px;
+    height: 150px;
+    /* gap: 100px; */
+}
+.card p{
+    color: #627382;
+}
